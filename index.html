@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M🖤</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p class="texto_prin">Espero que te haya gustado el pastel mi amor.</p>
+        <p class="texto_prin">Tengo algo que decirte ...</p>
+        <div>
+            <a href="carta.html" class="btn-ir">Ir</a>
+        </div>
+    </div>
+
+    <script>
+        const noBtn = document.getElementById("noBtn");
+        let size = 1;
+
+        noBtn.addEventListener("click", function () {
+            size *= 0.8; // Reduce el tamaño en un 20%
+            noBtn.style.transform = `scale(${size})`;
+        });
+    </script>
+</body>
+
+</html>

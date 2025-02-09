@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M🖤</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 500px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            height: 100%;
+            margin-top: 5rem;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .container img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .btn-custom {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border-radius: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .btn-custom:hover {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/img-1.jpg" alt="Heart Decoration">
+        <p class="texto-carta">Mi Amor, </p>
+        <p class="texto-carta">Desde el momento en que llegaste a mi vida, todo se volvió más hermoso. Eres mi razón de
+            ser y eres lo que me motiva a levantarme cada día, la luz en mis días más oscuros y la calma que llena mi
+            alma cuando más lo necesito. Eres como un rayo de sol en un día muy nublado, sinceramente no se que haría
+            sin ti, te amo tanto que mi corazón ya no es mio si no que te pertenece, pero estoy muy feliz de aquí así
+            sea porque sinceremante no me gustaría que estuviera en ningún otro lugar.</p>
+
+            <p class="texto-carta">Cada momento a tu lado son mis momentos favoritos de la semana, amo cada parte de ti que te conforma, eres
+            el ser mas perfecto que e conocido y aun no logro entender como es posible que lo seas. Estoy demasiado
+            feliz de haberme enamorado de ti y cada día seguirme enamorando mas y mas.</p>
+            <p class="texto-carta">Amo cómo logras hacer que los momentos más simples se sientan mágicos, cómo con solo una mirada haces que
+            todo tenga sentido. Eres mi mundo entero, mi felicidad, mi más bonito sueño hecho realidad.</p>
+        </p>
+        <p class="texto-carta">Por eso... </p>
+        <p class="texto-carta">Serias mi San Valentin por toda la vida en esta y en todas las vidas posibles ?</p>
+        <img src="img/img-2.jpg" alt="Love Illustration">
+        <div>
+            <p class="texto_prin">Will you be my Valentine?</p>
+            <div class="centrar">
+                <a href="acept.html" class="btn btn-success">Yes</a>
+                <button id="noBtn" class="btn btn-danger">No</button>
+            </div>
+        </div>
+    </div>
+    
+        <script>
+            const noBtn = document.getElementById("noBtn");
+            let size = 1;
+    
+            noBtn.addEventListener("click", function () {
+                size *= 0.8; // Reduce el tamaño en un 20%
+                noBtn.style.transform = `scale(${size})`;
+            });
+        </script>
+</body>
+
+</html>
