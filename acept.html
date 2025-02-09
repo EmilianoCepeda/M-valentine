@@ -15,15 +15,34 @@
 </head>
 <body>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
+        .container {
+            max-width: 500px;
+            padding: 30px;
+            height: 100%;
+            margin-top: 5rem;
+            border-radius: 15px;
+        }
+
+        .container img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .btn-custom {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border-radius: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .btn-custom:hover {
+            background-color: lightgray;
         }
     </style>
-    <div>
+    <div class="container">
         <p class="texto_prin">Gracias por aceptar mi amorcito.</p>
         <p class="texto_prin">Nos vemos el viernes 14 de febrero a las 3 de la tarde cuando salgas de clases.</p>
         <p class="texto_prin">TE AMOOOO</p>
